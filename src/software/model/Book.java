@@ -3,7 +3,7 @@ package software.model;
 public class Book {
 	private int bookId;
 	private  String bookName;
-	private int bookPrice;
+	private double bookPrice;
 	public int getBookId() {
 		return bookId;
 	}
@@ -16,11 +16,11 @@ public class Book {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-	public int getBookPrice() {
+	public double getBookPrice() {
 		return bookPrice;
 	}
-	public void setBookPrice(int bookPrice) {
-		this.bookPrice = bookPrice;
+	public void setBookPrice(double d) {
+		this.bookPrice = d;
 	}
 	@Override
 	public String toString() {

@@ -1,4 +1,4 @@
-package software.util;
+/*package software.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -49,3 +49,4 @@ public class DButilTmp {
 	conn.close();
 	}
 }
+*/
